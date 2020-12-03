@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tasks /> Has three children 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3d4452",
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-between",
+        "marginTop": 40,
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#d3d7de",
+            "fontSize": 25,
+            "lineHeight": 50,
+          }
+        }
+      >
+        todo
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f9fafc",
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#717171",
+          "fontSize": 13,
+        }
+      }
+    >
+      Tasks
+    </Text>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#92cf5c",
+          "borderRadius": 3,
+          "height": 30,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 30,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#f3f5f9",
+        "padding": 15,
+      }
+    }
+  >
+    <RCTScrollView
+      ListEmptyComponent={
+        <Text
+          style={
+            Object {
+              "color": "#717171",
+              "fontSize": 13,
+            }
+          }
+        >
+          No task has been created
+        </Text>
+      }
+      data={Array []}
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <Text
+          onLayout={[Function]}
+          style={
+            Object {
+              "color": "#717171",
+              "fontSize": 13,
+            }
+          }
+        >
+          No task has been created
+        </Text>
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
+`;
